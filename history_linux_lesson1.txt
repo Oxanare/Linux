@@ -1,0 +1,67 @@
+   0 cd
+   1 pwd
+   2 cd /
+   3 pwd
+   4 ls
+   5 cd
+   6 cd /bin/
+   7 pwd
+   8 ls
+   9 ls -a
+  10 ls -l
+  11 cd
+  12 clear
+  13 ls
+  14 ls -a
+  15 ls -la
+  16 cd /
+  17 ls
+  18 cd
+  19 cd /home/
+  20 mkdir user1
+  21 ls
+  22 cd user1/
+  23 mkdir task1
+  24 cd task1/
+  25 touch file1.txt
+  26 ls
+  27 cd ..
+  28 cd
+  29 cd /home/user1/task1/
+  30 cd /home/
+  31 cd user1/task1/
+  32 cd/tmp
+  33 cd /tmp
+  34 cd /home/
+  35 cd user1/task1/
+  36 cd /home
+  37 ls
+  38 tree
+  39 date
+  40 history
+  41 cd
+  42 clear
+  43 mkdir /home/user2/task2
+  44 mkdir -p /home/user2/task2
+  45 tree /home
+  46 mkdir -p /home/user2/task2 && touch /home/user2/task2/file2.txt
+  47 tree /home
+  48 cd /
+  49 ls
+  50 cp /home/user2/task2/file2.txt /opt/file.txt
+  51 ls /opt
+  52 mkdir -p /home/user3/task3
+  53 touch /home/user3/task3/file3.txt
+  54 mv --help
+  55 clear
+  56 mkdir /opt/task
+  57 mv /home/user3/task3/file3.txt /opt/task
+  58 tree /opt
+  59 mv /opt/task/file3.txt /opt/task/1.txt
+  60 rmdir /home/user3/task3/
+  61 rm /home/user2/task2/file2.txt 
+  62 rm -rf /home/user2
+  63 cat /etc/os-release
+  64 clear
+  65 history
+  66 history > /tmp/history.txt
